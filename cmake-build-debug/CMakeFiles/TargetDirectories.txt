@@ -1,0 +1,3 @@
+D:/VirusHunter/cmake-build-debug/CMakeFiles/VirusHunter.dir
+D:/VirusHunter/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/VirusHunter/cmake-build-debug/CMakeFiles/rebuild_cache.dir

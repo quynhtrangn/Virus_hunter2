@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="VirusHunter"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\SFML-2.5.1\;CMake Files\SFML-2.5.1\lib\;CMake Files\SFML-2.5.1\lib\cmake\;CMake Files\SFML-2.5.1\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/VirusHunter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VirusHunter">
+				<Option output="D:/VirusHunter/cmake-build-debug/VirusHunter.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/VirusHunter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/SFML-2.5.1/include"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirusHunter"/>
+					<CompileFile command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VirusHunter/fast">
+				<Option output="D:/VirusHunter/cmake-build-debug/VirusHunter.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/VirusHunter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/SFML-2.5.1/include"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirusHunter/fast"/>
+					<CompileFile command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/VirusHunter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/VirusHunter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw32/bin/mingw32-make.exe -f &quot;D:/VirusHunter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/VirusHunter/Animation.cpp">
+			<Option target="VirusHunter"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/Animation.h">
+			<Option target="VirusHunter"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/Collision.cpp">
+			<Option target="VirusHunter"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/Collision.h">
+			<Option target="VirusHunter"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/Data.cpp">
+			<Option target="VirusHunter"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/Data.h">
+			<Option target="VirusHunter"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/StateIntro.cpp">
+			<Option target="VirusHunter"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/StateIntro.h">
+			<Option target="VirusHunter"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/StateLoad.cpp">
+			<Option target="VirusHunter"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/StateLoad.h">
+			<Option target="VirusHunter"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/StatePlay.cpp">
+			<Option target="VirusHunter"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/StatePlay.h">
+			<Option target="VirusHunter"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/main.cpp">
+			<Option target="VirusHunter"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="D:/VirusHunter/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
